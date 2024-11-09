@@ -4,7 +4,7 @@ let minits = document.querySelector("#minits");
 let seconds = document.querySelector("#seconds");
 
 setInterval( function(){
-    let ramadan = new Date("11 march 2024 19:00:00").getTime()
+    let ramadan = new Date("28 february 2025 19:00:00").getTime()
     let currentDate = new Date().getTime();
 
     let timeRemaining = ramadan - currentDate;
